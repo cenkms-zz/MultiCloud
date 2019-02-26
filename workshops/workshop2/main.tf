@@ -44,8 +44,8 @@ resource "azurerm_app_service_plan" "asp-1" {
   kind                = "linux"
 
   sku {
-    tier = "Free"
-    size = "F1"
+    tier = "Standard"
+    size = "S1"
   }
 }
 
@@ -56,8 +56,8 @@ resource "azurerm_app_service_plan" "asp-2" {
   kind                = "linux"
 
   sku {
-    tier = "Free"
-    size = "F1"
+    tier = "Standard"
+    size = "S1"
   }
 }
 
